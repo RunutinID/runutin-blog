@@ -25,7 +25,7 @@ Contoh sederhananya begini: sebuah sensor cahaya membaca kondisi ruangan, Arduin
 Arduino bukan hanya satu benda. Arduino adalah gabungan dari board microcontroller, software untuk menulis program, bahasa/pustaka yang mudah dipakai, dan ekosistem komponen yang membuat prototyping jadi lebih cepat.
 :::
 
-![Infografis ekosistem Arduino dari board, IDE, sketch, library, shield, sensor, hingga prototype](illustration/apa-itu-arduino-ecosystem-map.webp)
+![Infografis ekosistem Arduino dari board, IDE, sketch, library, shield, sensor, hingga prototype](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-ecosystem-map.webp)
 
 ## Arduino Sebagai Board Microcontroller
 
@@ -48,7 +48,7 @@ Pada board Arduino, biasanya kamu akan menemukan:
 
 Arduino Uno sering dipakai untuk belajar karena bentuknya populer, dokumentasinya banyak, dan susunan pinnya mudah dipahami. Arduino Nano lebih kecil dan cocok untuk prototype yang butuh ukuran ringkas. Arduino Mega punya lebih banyak pin untuk project yang membutuhkan banyak input-output.
 
-![Infografis anatomi board Arduino dengan microcontroller, pin digital, pin analog, power pin, USB, dan tombol reset](illustration/apa-itu-arduino-board-anatomy.webp)
+![Infografis anatomi board Arduino dengan microcontroller, pin digital, pin analog, power pin, USB, dan tombol reset](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-board-anatomy.webp)
 
 ## Arduino Sebagai Platform
 
@@ -196,7 +196,7 @@ Alur yang aman untuk pemula:
 7. Perbaiki wiring dan code sedikit demi sedikit.
 8. Setelah stabil, baru rapikan rangkaian.
 
-![Infografis alur prototype Arduino dari ide, input, proses, output, testing, hingga iterasi](illustration/apa-itu-arduino-prototype-flow.webp)
+![Infografis alur prototype Arduino dari ide, input, proses, output, testing, hingga iterasi](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-prototype-flow.webp)
 
 Contoh project pertama yang realistis:
 

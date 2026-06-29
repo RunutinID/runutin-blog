@@ -25,7 +25,7 @@ Kalau Arduino Uno sering dipakai sebagai pintu masuk belajar microcontroller, ES
 ESP32 bukan hanya satu board. ESP32 bisa berarti chip SoC, module berisi chip dan flash, atau devboard siap pakai yang sudah punya USB, regulator, tombol, dan pin header.
 :::
 
-![Infografis lapisan ESP32 dari core processor, SoC, module, board, hingga devboard](illustration/apa-itu-esp32-core-to-devboard.webp)
+![Infografis lapisan ESP32 dari core processor, SoC, module, board, hingga devboard](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20ESP32/illustration/apa-itu-esp32-core-to-devboard.webp)
 
 ## Dari Core sampai Devboard
 
@@ -86,7 +86,7 @@ Module membantu developer karena bagian radio dan antena sudah dirancang oleh pr
 
 Devboard ESP32 adalah board siap pakai yang membuat module ESP32 mudah diprogram dan mudah disambungkan ke breadboard atau jumper wire. Contoh populer adalah ESP32-DevKitC dan banyak board kompatibel lain.
 
-![Infografis anatomi devboard ESP32 dengan module, USB-to-serial, regulator, tombol boot, tombol reset, dan header pin](illustration/apa-itu-esp32-devboard-anatomy.webp)
+![Infografis anatomi devboard ESP32 dengan module, USB-to-serial, regulator, tombol boot, tombol reset, dan header pin](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20ESP32/illustration/apa-itu-esp32-devboard-anatomy.webp)
 
 Pada devboard ESP32, biasanya kamu menemukan:
 
@@ -122,7 +122,7 @@ Workflow pemula biasanya seperti ini:
 8. Hubungkan sensor atau aktuator di breadboard.
 9. Uji, debug, dan ulangi.
 
-![Infografis pilihan cara programming ESP32: Arduino IDE, ESP-IDF, MicroPython, PlatformIO, dan Serial Monitor](illustration/apa-itu-esp32-programming-options.webp)
+![Infografis pilihan cara programming ESP32: Arduino IDE, ESP-IDF, MicroPython, PlatformIO, dan Serial Monitor](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20ESP32/illustration/apa-itu-esp32-programming-options.webp)
 
 ## Arduino IDE, ESP-IDF, MicroPython, dan PlatformIO
 
@@ -151,7 +151,7 @@ Perbandingan ESP32 dengan Arduino Uno perlu hati-hati karena keduanya sering dip
 | Kemudahan pemula | Sangat ramah untuk dasar | Ramah, tapi lebih banyak detail |
 | Ekosistem | Sangat besar untuk belajar | Sangat besar untuk IoT dan embedded modern |
 
-![Infografis perbandingan ESP32 dan Arduino Uno dari konektivitas, tegangan logika, performa, pin, dan use case](illustration/apa-itu-esp32-vs-arduino.webp)
+![Infografis perbandingan ESP32 dan Arduino Uno dari konektivitas, tegangan logika, performa, pin, dan use case](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20ESP32/illustration/apa-itu-esp32-vs-arduino.webp)
 
 ESP32 bukan “pengganti mutlak” Arduino Uno. Kalau tujuanmu belajar konsep pin digital, LED, tombol, dan dasar elektronika, Uno masih sangat nyaman. Kalau tujuanmu membuat alat yang terhubung Wi-Fi, membaca sensor, mengirim data ke server, atau berkomunikasi dengan smartphone, ESP32 biasanya lebih praktis.
 
