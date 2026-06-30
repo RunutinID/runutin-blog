@@ -97,6 +97,38 @@ void loop() {
 
 `setup()` berjalan sekali saat board menyala atau di-reset. `loop()` berjalan berulang terus selama board mendapat daya. Pola ini cocok untuk alat elektronik karena microcontroller biasanya bekerja terus-menerus memantau kondisi dan merespons perubahan.
 
+## Arduino Cloud: Saat Project Mulai Terhubung Internet
+
+Selain Arduino IDE yang berjalan di komputer, Arduino juga punya **Arduino Cloud**. Ini adalah platform online untuk membuat, memprogram, memantau, dan mengelola project IoT dari browser. Kalau Arduino IDE fokus pada menulis dan upload sketch ke board, Arduino Cloud membantu ketika project kamu mulai butuh dashboard, data sensor online, kontrol jarak jauh, atau integrasi device.
+
+Di Arduino Cloud, konsep pentingnya biasanya seperti ini:
+
+| Konsep | Fungsi |
+|---|---|
+| Thing | Representasi project atau device IoT yang kamu kelola |
+| Device | Board fisik yang terhubung ke Arduino Cloud |
+| Cloud Variable | Data yang disinkronkan antara board dan cloud |
+| Dashboard | Tampilan web untuk memantau dan mengontrol variable |
+| Widget | Komponen dashboard seperti switch, gauge, chart, atau value |
+| Cloud Editor | Editor online untuk menulis dan upload program |
+
+Contoh alurnya: kamu punya board Arduino yang membaca suhu. Nilai suhu itu dikirim sebagai Cloud Variable. Di Dashboard, kamu menambahkan widget gauge atau chart untuk melihat perubahan suhu dari browser atau aplikasi Arduino IoT Remote.
+
+Arduino Cloud berguna untuk:
+
+- Melihat data sensor dari browser.
+- Membuat dashboard tanpa membangun web app dari nol.
+- Mengontrol output seperti LED, relay, atau motor dari jarak jauh.
+- Mengelola beberapa device IoT.
+- Melakukan update program secara OTA pada board yang mendukung.
+- Belajar konsep IoT dengan jalur yang lebih terarah.
+
+:::info[Arduino Cloud Bukan Pengganti Dasar Elektronik]
+Arduino Cloud membantu bagian konektivitas dan monitoring, tetapi kamu tetap perlu memahami wiring, tegangan, pin, sensor, dan logika program di board.
+:::
+
+Arduino Cloud paling terasa manfaatnya saat kamu sudah melewati eksperimen dasar seperti blink LED atau membaca tombol, lalu ingin membuat alat yang datanya bisa dipantau dari internet. Untuk project lokal yang tidak butuh koneksi, Arduino IDE biasa sudah cukup.
+
 ## Bahasa Arduino: C/C++ yang Dirapikan
 
 Arduino memakai bahasa yang berbasis **C/C++**, tetapi banyak detail rumit sudah dibungkus dalam fungsi yang lebih mudah dipakai. Misalnya, untuk mengatur pin sebagai output, kamu cukup memakai `pinMode()`. Untuk menyalakan pin, kamu memakai `digitalWrite()`. Untuk membaca sensor analog, kamu memakai `analogRead()`.
@@ -152,6 +184,8 @@ Arduino populer karena banyak komponen sudah dibuat agar mudah digabungkan.
 **Module** biasanya berisi rangkaian kecil untuk fungsi tertentu, misalnya relay module, OLED display, motor driver, Bluetooth, Wi-Fi, RFID, atau SD card module.
 
 **Shield** adalah papan tambahan yang dipasang langsung di atas board Arduino dengan susunan pin yang cocok. Shield bisa menambahkan fitur seperti motor control, Ethernet, data logging, atau prototyping area.
+
+![Infografis perbedaan dan kesamaan sensor, module, dan shield pada ekosistem Arduino](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-sensor-module-shield.webp)
 
 Perbedaan sederhananya:
 
@@ -269,6 +303,7 @@ Kalau kamu ingin mulai, pilih satu board yang dokumentasinya jelas, ikuti eksper
 ## Referensi
 
 - [Arduino Docs - Arduino IDE 2](https://docs.arduino.cc/software/ide-v2) - dipakai untuk menjelaskan peran IDE, upload sketch, board manager, library manager, dan serial tools.
+- [Arduino Docs - Arduino Cloud](https://docs.arduino.cc/arduino-cloud/) - dipakai untuk menjelaskan Arduino Cloud, Things, Cloud Variables, Dashboards, dan workflow IoT berbasis cloud.
 - [Arduino Docs - Arduino Language Reference](https://docs.arduino.cc/language-reference/) - dipakai untuk merangkum fungsi dasar seperti `setup()`, `loop()`, `pinMode()`, `digitalWrite()`, dan `analogRead()`.
 - [Arduino Docs - Libraries](https://docs.arduino.cc/libraries/) - dipakai untuk menjelaskan fungsi library dalam ekosistem Arduino.
 - [Arduino Docs - UNO R4 Minima](https://docs.arduino.cc/hardware/uno-r4-minima/) - dipakai sebagai contoh board Arduino Uno generasi baru dan konteks perkembangan board.
