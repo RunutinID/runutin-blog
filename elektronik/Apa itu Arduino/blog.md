@@ -25,7 +25,7 @@ Kalau dijelaskan paling ringkas, Arduino adalah jembatan antara **dunia fisik** 
 Arduino bukan cuma board. Arduino bisa dilihat sebagai tiga lapis besar: hardware microcontroller board, software untuk menulis dan upload program, serta ekosistem library, shield, module, cloud, dokumentasi, dan komunitas.
 :::
 
-![Infografis tiga lapis Arduino sebagai board, software, dan ekosistem](illustration/apa-itu-arduino-three-layers.webp)
+![Infografis tiga lapis Arduino sebagai board, software, dan ekosistem](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-three-layers.webp?raw=true)
 
 ## Peta Besar Arduino dalam 3 Konsep
 
@@ -59,7 +59,7 @@ Pada board Arduino, biasanya kamu akan menemukan beberapa bagian ini:
 | Voltage regulator | Membantu menstabilkan tegangan board |
 | Clock/crystal | Membantu microcontroller berjalan pada timing tertentu |
 
-![Infografis anatomi board Arduino dan fungsi bagian utamanya](illustration/apa-itu-arduino-board-anatomy-v2.webp)
+![Infografis anatomi board Arduino dan fungsi bagian utamanya](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-board-anatomy-v2.webp?raw=true)
 
 ### Apa yang Bisa Dilakukan Board Arduino?
 
@@ -148,7 +148,7 @@ Arduino IDE bisa mendukung banyak jenis board karena ada **board package**. Boar
 
 Library Manager membantu kamu memasang library tambahan. Misalnya library untuk sensor DHT, OLED, servo, motor driver, NeoPixel, Ethernet, Wi-Fi, atau SD card. Library membuat kamu tidak perlu memahami semua detail komunikasi hardware dari awal, meski tetap penting untuk mengerti wiring, tegangan, dan pin yang dipakai.
 
-![Infografis alur Arduino IDE dari sketch, library, board package, compile, upload, sampai Serial Monitor](illustration/apa-itu-arduino-ide-flow.webp)
+![Infografis alur Arduino IDE dari sketch, library, board package, compile, upload, sampai Serial Monitor](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-ide-flow.webp?raw=true)
 
 ## 3. Arduino sebagai Framework, Platform, dan Ekosistem
 
@@ -196,7 +196,7 @@ Ekosistem Arduino besar karena banyak komponen sudah dibuat agar mudah digabungk
 
 **Shield** adalah papan tambahan yang dipasang langsung di atas board Arduino dengan susunan pin yang cocok. Shield bisa menambahkan fitur seperti motor control, Ethernet, data logging, atau prototyping area.
 
-![Infografis perbedaan sensor, module, dan shield pada ekosistem Arduino](illustration/apa-itu-arduino-sensor-module-shield.webp)
+![Infografis perbedaan sensor, module, dan shield pada ekosistem Arduino](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-sensor-module-shield.webp?raw=true)
 
 ### Kenapa Ekosistem Ini Penting?
 
@@ -246,7 +246,7 @@ Untuk membuat prototype pertama, kamu bisa mengikuti alur sederhana ini:
 8. Perbaiki wiring atau code jika hasilnya belum sesuai.
 9. Rapikan prototype setelah logikanya terbukti jalan.
 
-![Infografis alur prototype Arduino dari ide, wiring, sketch, upload, test, sampai iterasi](illustration/apa-itu-arduino-prototype-flow-v2.webp)
+![Infografis alur prototype Arduino dari ide, wiring, sketch, upload, test, sampai iterasi](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Arduino/illustration/apa-itu-arduino-prototype-flow-v2.webp?raw=true)
 
 :::info[Prototype Itu Bukan Produk Jadi]
 Prototype Arduino bertujuan membuktikan ide dulu. Kabel masih bisa berantakan, enclosure belum ada, dan code belum sempurna. Yang penting: input terbaca, logic jalan, dan output merespons sesuai rencana.

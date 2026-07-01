@@ -25,7 +25,7 @@ Fungsi utamanya adalah membantu kita membuat rangkaian sementara. Kalau wiring s
 Breadboard bukan sumber listrik dan bukan komponen pintar. Ia hanya papan koneksi sementara yang menghubungkan lubang-lubang tertentu di dalamnya, sehingga komponen bisa dirangkai tanpa solder.
 :::
 
-![Infografis anatomi breadboard dengan terminal strip, power rail, center gap, row, dan column](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-anatomy.webp)
+![Infografis anatomi breadboard dengan terminal strip, power rail, center gap, row, dan column](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-anatomy.webp?raw=true)
 
 ## Kenapa Breadboard Dipakai Saat Prototype?
 
@@ -51,7 +51,7 @@ Pada breadboard standar, area tengah biasanya dibagi menjadi dua sisi oleh celah
 
 Sementara itu, bagian pinggir biasanya disebut **power rail**. Jalur ini dipakai untuk distribusi tegangan seperti `5V`, `3.3V`, dan `GND`. Power rail sering diberi tanda merah untuk positif dan biru atau hitam untuk ground.
 
-![Infografis jalur internal breadboard yang menunjukkan 5 lubang per row, center gap, dan power rail](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-internal-connections.webp)
+![Infografis jalur internal breadboard yang menunjukkan 5 lubang per row, center gap, dan power rail](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-internal-connections.webp?raw=true)
 
 Secara sederhana:
 
@@ -126,7 +126,7 @@ Alur umum memakai breadboard dengan Arduino:
 5. Upload program kecil untuk menguji satu fungsi.
 6. Gunakan Serial Monitor jika perlu membaca nilai sensor.
 
-![Infografis alur prototype memakai breadboard dari power rail, komponen, microcontroller, testing, hingga iterasi](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-prototype-flow.webp)
+![Infografis alur prototype memakai breadboard dari power rail, komponen, microcontroller, testing, hingga iterasi](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-prototype-flow.webp?raw=true)
 
 Hal penting: **ground harus sama**. Jika Arduino membaca sensor yang diberi daya dari sumber lain, ground Arduino dan ground sumber itu biasanya perlu disatukan agar sinyal punya referensi yang sama.
 
@@ -170,7 +170,7 @@ Breadboard sangat membantu, tapi ada beberapa jebakan klasik untuk pemula.
 | Sensor terbaca aneh | Ground tidak tersambung | Pastikan semua ground punya referensi sama |
 | Rangkaian kadang putus | Kabel jumper longgar | Ganti kabel atau pindah lubang |
 
-![Infografis kesalahan umum breadboard: rail putus, LED terbalik, center gap salah paham, dan ground belum tersambung](https://raw.githubusercontent.com/RunutinID/runutin-blog/refs/heads/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-common-mistakes.webp)
+![Infografis kesalahan umum breadboard: rail putus, LED terbalik, center gap salah paham, dan ground belum tersambung](https://github.com/RunutinID/runutin-blog/blob/main/elektronik/Apa%20itu%20Breadboard/illustration/apa-itu-breadboard-common-mistakes.webp?raw=true)
 
 :::warning[Matikan Power Saat Mengubah Wiring]
 Biasakan mencabut power sebelum memindahkan kabel atau komponen. Kebiasaan kecil ini membantu mencegah short circuit dan komponen rusak.
