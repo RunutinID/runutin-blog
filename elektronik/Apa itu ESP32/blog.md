@@ -1,16 +1,16 @@
 ---
-title: "Apa Itu ESP32? Core, Module, dan Devboard"
-seo_title: "Apa Itu ESP32? Core, Module, dan Devboard"
-meta_description: "Kenali ESP32 dari core, SoC, module, devboard, cara programming, perbedaan dengan Arduino, serta kelebihan dan batasannya untuk project IoT pemula baru."
-slug: "apa-itu-esp32"
+title: Apa Itu ESP32? Core, Module, dan Devboard
+seo_title: Apa Itu ESP32? Core, Module, dan Devboard
+meta_description: Kenali ESP32 dari core, SoC, module, devboard, cara programming, perbedaan dengan Arduino, serta kelebihan dan batasannya untuk project IoT pemula baru.
+slug: apa-itu-esp32
 intro: "ESP32 sering muncul saat orang mulai membuat project IoT, sensor wireless, smart home, atau alat yang perlu Wi-Fi dan Bluetooth. Masalahnya, istilah ESP32 bisa merujuk ke beberapa lapisan sekaligus: core processor, chip SoC, module, sampai devboard yang siap dicolok ke laptop. Artikel ini merapikan semuanya dari dasar agar kamu paham apa itu ESP32, bagaimana kita berinteraksi dengannya, dan apa bedanya dengan board pemula seperti Arduino Uno. Setelah membaca, kamu akan lebih siap memilih board, menulis program pertama, dan memahami kapan ESP32 menjadi pilihan yang masuk akal."
 tags:
-  - "esp32"
-  - "iot"
-  - "microcontroller"
-  - "elektronik"
-date: "2026-06-29"
-author: "Runutin"
+  - esp32
+  - iot
+  - microcontroller
+  - elektronik
+date: 2026-06-29
+author: Runutin
 enable_comments: false
 show_related_posts: false
 ---
